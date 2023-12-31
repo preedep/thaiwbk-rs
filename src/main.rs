@@ -1,5 +1,9 @@
-mod tire;
+use log::debug;
+
+mod trie;
 
 fn main() {
-    println!("Hello, world!");
+    pretty_env_logger::init();
+    debug!("Starting up");
+
 }
