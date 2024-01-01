@@ -19,7 +19,7 @@ fn main() {
     debug!("Elapsed insert time: {:.2?}", before.elapsed());
 
     let before = Instant::now();
-    let results = trie.words_with_prefix(&"กลม".to_string());
+    let results = trie.words_with_prefix(&"ขนม".to_string());
     let elapsed = before.elapsed();
 
     for result in results {
